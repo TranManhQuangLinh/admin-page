@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/adimn-page/static/css/main.820baff5.css",
+    "main.js": "/adimn-page/static/js/main.dc217214.js",
+    "static/js/787.b4d28e1e.chunk.js": "/adimn-page/static/js/787.b4d28e1e.chunk.js",
+    "index.html": "/adimn-page/index.html",
+    "main.820baff5.css.map": "/adimn-page/static/css/main.820baff5.css.map",
+    "main.dc217214.js.map": "/adimn-page/static/js/main.dc217214.js.map",
+    "787.b4d28e1e.chunk.js.map": "/adimn-page/static/js/787.b4d28e1e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.820baff5.css",
+    "static/js/main.dc217214.js"
+  ]
+}
