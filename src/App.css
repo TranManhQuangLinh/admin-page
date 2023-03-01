@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -32,7 +30,77 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.container {
+  min-height: 80vh;
+  margin-top: 30px;
+}
+
+@media (min-width: 992px) {
+  .navigation {
+    border-right: 2px solid black;
+  }
+  
+}
+
+
+.nav-item {
+  border-bottom: #B9B5B5 solid 1px;
+}
+
+
+.nav-link:hover,
+.nav-link:focus {
+  text-decoration: none;
+}
+
+.title {
+  color: #115BB2;
+  margin-bottom: 20px;
+}
+
+.content-data {
+  margin: 50px;
+}
+
+/* Dashboard */
+.chart-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: large;
+  font-weight: 500;
+}
+
+.recharts-wrapper {
+  margin: 0 auto;
+
+}
+
+/* Post Management */
+.filter {
+  width: auto;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.table {
+  vertical-align: middle;
+  width: auto;
+  margin: auto; 
+}
+
+.pagination {
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.modal-dialog {
+  margin-top: 30vh !important;
 }
