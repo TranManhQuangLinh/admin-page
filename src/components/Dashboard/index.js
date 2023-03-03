@@ -5,9 +5,13 @@ function Dashboard() {
     return (
         <>
             <div className="title">Dashboard</div>
-            <Link className="btn btn-primary ms-5 me-1 link-light text-decoration-none" to='/dashboard/subcription'>Subcription</Link>
-            <Link className="btn btn-primary link-light text-decoration-none" to='/dashboard/revenue'>Revenue</Link>
-            <div className="content-data">
+            <div className="d-flex justify-content-evenly w-100">
+                <Link className="btn btn-primary link-light text-decoration-none" to='/dashboard/subcription'>Subcription</Link>
+
+                <Link className="btn btn-primary link-light text-decoration-none" to='/dashboard/revenue'>Revenue</Link>
+
+            </div>
+            <div className="content-data dashboard">
                 <Outlet />
             </div>
         </>

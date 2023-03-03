@@ -77,9 +77,9 @@ function PostManagement() {
 
 
     return (
-        <div>
+        <>
             <div className="title">Post Management</div>
-            <div className="content-data">
+            <div className="content-data post">
                 <div className="">
                     <input className="filter form-control" type="text" value={filter} onChange={handleFilterChange} placeholder='Search id or title' />
                 </div>
@@ -88,7 +88,7 @@ function PostManagement() {
 
                 {selectedPost && (
                     <Modal show={modalIsOpen} onHide={handleModalClose}>
-                        <Modal.Header closeButton>
+                        <Modal.Header>
                             <Modal.Title>{selectedPost.title}</Modal.Title>
                         </Modal.Header>
                         <Modal.Body>
@@ -104,7 +104,7 @@ function PostManagement() {
                 )}
 
             </div>
-        </div>
+        </>
     );
 };
 

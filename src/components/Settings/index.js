@@ -76,11 +76,11 @@ const Settings = () => {
   };
 
   return (
-    <div>
+    <>
       <div className="title">Settings</div>
-      <div className="content-data">
-        <form className="needs-validation row justify-content-center">
-          <div className="form-group col-6 mb-4">
+      <div className="content-data settings">
+        <form className="form needs-validation row justify-content-center">
+          <div className="form-group col-12 col-sm-6 mb-4">
             <label htmlFor="title-input">Title:</label>
             <input
               id="title-input"
@@ -95,7 +95,7 @@ const Settings = () => {
             </div>
           </div>
 
-          <div className="form-group col-6 mb-4">
+          <div className="form-group col-12 col-sm-6 mb-4">
             <label htmlFor="email-input">Email:</label>
             <input
               id="email-input"
@@ -110,7 +110,7 @@ const Settings = () => {
             </div>
           </div>
 
-          <div className="form-group col-6 mb-4">
+          <div className="form-group col-12 col-sm-6 mb-4">
             <label htmlFor="bg-color-input">Background color:</label>
             <div className="input-group">
               <input
@@ -138,7 +138,7 @@ const Settings = () => {
             </div>
           </div>
 
-          <div className="form-group col-6 mb-4">
+          <div className="form-group col-12 col-sm-6 mb-4">
             <label htmlFor="active-date-input">Active date:</label>
             <DateRangePicker
               id="active-date-input"
@@ -158,7 +158,7 @@ const Settings = () => {
 
         </form>
       </div>
-    </div>
+    </>
 
   );
 };
